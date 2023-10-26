@@ -2,7 +2,7 @@
 export default ({
   devtools: { enabled: true },
 
-  buildModules: ['@nuxtjs/pwa'], // moduł PWA
+  buildModules: ['@nuxtjs/pwa', 'bootstrap-vue/nuxt'], // moduł PWA
 
   css: [
     'bootstrap/dist/css/bootstrap.css', // Bootstrap CSS
@@ -23,11 +23,11 @@ export default ({
   },
 
   routes: [
-    // Inne trasy
-    {
-      path: '/editExpense/:id', // Zdefiniuj parametr id
-      component: '~/pages/EditExpense.vue',
-    },
+  //   // Inne trasy
+  //   {
+  //     path: '/editExpense/:id', // Zdefiniuj parametr id
+  //     component: '~/pages/editExpense.vue',
+  //   },
   ],
 })
 
